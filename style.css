@@ -2,19 +2,15 @@ body {
  background-color: #F1EEED;
 }
 .container_photo{
-	width:100%;
+	width:3000px;
+  height: 600px;
+  margin-top: 10px;
 	margin:auto;
-	overflow:hidden;
 }
 
 #showcase {
 	background-image: url("https://i.imgur.com/2l21WQQ.jpg");
-	background-position:center right;
-  margin: -10px;
-  margin-top: 10px;
-  min-height:400px;
-	margin-bottom:30px;
-	text-align: center;
+
 }
 .container_photo h1 {
   font-family: Montserrat;
@@ -56,27 +52,46 @@ body {
 
 .container_hallovningar {
 	display: flex;
-	flex-direction: row; <!-- blir till rader -->
-	justify-content: space-between;
-	width: 300px;
-	padding: 150px;
+	flex-direction: column; <!-- blir till rader -->
+	padding: 100px;
+  width: 170px;
 	margin:auto;
 
 }
 
 .boxes_hallovningar {
-	margin-right: 20px;
+  margin-top: 30px;
 	background-color: white;
 	font-family: Montserrat;
 	padding: 10px;
 	border:1px white solid;
 	box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
 	border-radius: 5px;  <!-- curved edges -->
-
-
 }
 
 .boxes_hallovningar:hover{
+	box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.1);
+	border:1px #E0C77B solid;
+}
+#container_numeriska {
+  display: flex;
+  flex-direction: row; <!-- blir till rader -->
+  justify-content: space-between;
+  width: 300px;
+  padding: 150px;
+  margin:auto;
+}
+
+#boxes_numeriskametoder_teori{
+  margin: auto;
+  background-color: white;
+  font-family: Montserrat;
+  padding: 10px;
+  border:1px white solid;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;  <!-- curved edges -->
+}
+#boxes_numeriskametoder_teori:hover{
 	box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.1);
 	border:1px #E0C77B solid;
 }
